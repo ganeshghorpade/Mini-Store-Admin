@@ -8,7 +8,7 @@ import Home from './pages/Home/Home.jsx'
 import Login from './pages/Login/Login.jsx'
 import Signup from './pages/Signup/Signup.jsx'
 import Products from './pages/Products/Products.jsx'
-import Orders from './pages/Orders.jsx/Orders.jsx'
+import Orders from './pages/Orders/Orders.jsx'
 import Users from './pages/Users/Users.jsx'
 import Settings from './pages/Setting/Settings.jsx'
 
