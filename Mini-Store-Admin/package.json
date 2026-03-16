@@ -1,0 +1,23 @@
+{
+  "name": "mini-store-admin",
+  "version": "1.0.0",
+  "description": "A mini e-commerce admin dashboard built using React (frontend). Includes login/register UI and routing. Backend integration planned using Node.js and MongoDB.",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

@@ -12,6 +12,7 @@ import Orders from './pages/Orders/Orders.jsx'
 import Users from './pages/Users/Users.jsx'
 import Settings from './pages/Setting/Settings.jsx'
 
+const user = false;
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App />}>
@@ -22,7 +23,6 @@ const router = createBrowserRouter(
       <Route path="Orders" element={<Orders/>}/>
       <Route path="Users" element={<Users/>}/>
       <Route path="Settings" element={<Settings/>}/>
-
     </Route>
   )
 )

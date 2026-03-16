@@ -3,19 +3,19 @@ import React from 'react'
 function Footer() {
   return (
     <>
-    <footer className="bg-white shadow-lg mt-auto">
+    <footer className="bg-white text-sm shadow-lg mt-auto">
         <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             
         
             <div>
-                <h3 className="text-xl font-semibold text-gray-800">Company</h3>
+                <h3 className="font-semibold text-gray-800">Company</h3>
                 <p className="text-gray-500 mt-3">Delivering quality products with a seamless shopping experience.</p>
                 <p className="text-gray-500 mt-2">© 2024 All rights reserved.</p>
             </div>
 
             
             <div>
-                <h3 className="text-xl font-semibold text-gray-800">Quick Links</h3>
+                <h3 className="font-semibold text-gray-800">Quick Links</h3>
                 <ul className="mt-3 space-y-2">
                     <li><a href="#" className="text-gray-500 hover:text-indigo-600 transition">Home</a></li>
                     <li><a href="#" className="text-gray-500 hover:text-indigo-600 transition">Shop</a></li>
@@ -26,8 +26,8 @@ function Footer() {
 
     
             <div>
-                <h3 className="text-xl font-semibold text-gray-800">Customer Service</h3>
-                <ul className="mt-3 space-y-2">
+                <h3 className="font-semibold text-gray-800">Customer Service</h3>
+                <ul className="mt-3 spa ce-y-2">
                     <li><a href="#" className="text-gray-500 hover:text-indigo-600 transition">FAQs</a></li>
                     <li><a href="#" className="text-gray-500 hover:text-indigo-600 transition">Shipping & Returns</a></li>
                     <li><a href="#" className="text-gray-500 hover:text-indigo-600 transition">Privacy Policy</a></li>
@@ -36,7 +36,7 @@ function Footer() {
             </div>
 
             <div>
-                <h3 className="text-xl font-semibold text-gray-800">Stay Updated</h3>
+                <h3 className="text-xm font-semibold text-gray-800">Stay Updated</h3>
                 <p className="text-gray-500 mt-3">Subscribe to our newsletter for exclusive deals and updates.</p>
                 <div className="mt-4 flex">
                     <input type="email" placeholder="Enter your email" className="w-full px-4 py-3 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-1"/>
